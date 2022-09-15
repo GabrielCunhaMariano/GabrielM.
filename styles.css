@@ -10,6 +10,7 @@ ul {
 
 body {
   background-image: url(./assets/bg.jpg);
+  background-color: 302F3D;
   background-position: top center;
   background-size: 100% auto;
   background-repeat: no-repeat;
@@ -30,9 +31,9 @@ header div {
   margin: auto;
   background-image: linear-gradient(
     90deg,
-    #9572fc 0%,
-    #43e7ad 50.52%,
-    #e2d45c 100%
+    #531bfa 0%,
+    #9900ff 50.52%,
+    rgb(247, 70, 0) 100%
   );
   border-radius: 50%;
   display: flex;
@@ -50,9 +51,10 @@ header div img {
 }
 
 main {
-  max-width: 580px;
+  max-width: 600px;
   width: 90%;
   margin: 32px auto;
+  margin-bottom: 50px;
   display: grid;
   gap: 24px;
   margin-top: 32px;
@@ -62,9 +64,9 @@ section {
   color: white;
   background-image: linear-gradient(
     90deg,
-    #9572fc 0%,
-    #43e7ad 50.52%,
-    #e2d45c 100%
+    #531bfa 0%,
+    #9900ff 50.52%,
+    rgb(247, 70, 0) 100%
   );
   padding-top: 4px;
   border-radius: 10px;
@@ -106,6 +108,14 @@ section ul li:hover {
   width: 90px;
 }
 
+footer {
+  margin-bottom: 32px;
+}
+
+footer p {
+  color: #a1a1aa;
+  text-align: center;
+}
 /* animation */
 
 .channel-list img {
@@ -123,15 +133,15 @@ main section {
 }
 
 main section:nth-child(1) {
-  animation-delay: 0.1s;
+  animation-delay: 0s;
 }
 
 main section:nth-child(2) {
-  animation-delay: 0.5s;
+  animation-delay: 0.3s;
 }
 
 main section:nth-child(3) {
-  animation-delay: 0.8s;
+  animation-delay: 0.6s;
 }
 
 @keyframes fromTop {
