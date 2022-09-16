@@ -115,7 +115,9 @@ footer {
 footer p {
   color: #a1a1aa;
   text-align: center;
+  font-size: 12px;
 }
+
 /* animation */
 
 .channel-list img {
