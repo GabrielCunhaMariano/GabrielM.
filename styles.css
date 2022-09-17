@@ -9,8 +9,7 @@ ul {
 }
 
 body {
-  background-image: url(./assets/bg.jpg);
-  background-color: 302F3D;
+  background-color: #302f3d;
   background-position: top center;
   background-size: 100% auto;
   background-repeat: no-repeat;
@@ -73,7 +72,9 @@ section {
 }
 
 section div {
-  background-color: #2a2634;
+  background-color: #262629;
+
+  background-image: #000000;
   padding: 32px;
   padding-top: 24px;
   border-radius: 8px;
